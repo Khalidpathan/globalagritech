@@ -2,7 +2,6 @@ export const Image = ({ title, largeImage, smallImage }) => {
   return (
     <div className='portfolio-item'>
       <div className='hover-bg'>
-        {' '}
         <a
           href={largeImage}
           title={title}
@@ -15,8 +14,8 @@ export const Image = ({ title, largeImage, smallImage }) => {
             src={smallImage}
             className='img-responsive'
             alt={title}
-          />{' '}
-        </a>{' '}
+          />
+        </a>
       </div>
     </div>
   )
