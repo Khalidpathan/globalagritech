@@ -1,18 +1,14 @@
 import React from 'react'
-// import { Navigation } from "./navigation";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-
-const Catlog = () => {
+function Catlog() {
   return (
-    <>
-    
-    <div class="grid grid-cols-4 gap-4">
-  <div>01</div>
-   
-  <div>09</div>
-</div>
-    </>
-
-  )
+    <div class="container m-auto grid grid-cols-3 gap-4">
+      <div>one</div>
+      <div>2</div>
+      </div>
+  );
 }
 export default Catlog;
